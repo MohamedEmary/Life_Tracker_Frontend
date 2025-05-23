@@ -13,8 +13,6 @@ The frontend for **Life Tracker**, a productivity web application designed to he
 - **AI Integration:** Google Generative AI (via backend)
 - **Calendar Sync:** Google Calendar API (via backend)
 
----
-
 ## Project Structure
 
 ```
@@ -27,14 +25,12 @@ src/
 └── main.jsx            # React DOM root
 ```
 
----
-
 ## Setup Instructions
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Ayat166/Life_Tracker_Frontend.git
+git clone https://github.com/MohamedEmary/Life_Tracker_Frontend.git
 cd Life_Tracker_Frontend
 ```
 
@@ -56,8 +52,6 @@ yarn dev
 
 The app should be live at `http://localhost:5173`.
 
----
-
 ## Axios Configuration
 
 All API requests are handled through a centralized Axios instance located in:
@@ -70,27 +64,25 @@ Sample:
 
 ```javascript
 // src/utils/axios.js
-import axios from "axios";
+import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: "http://localhost:8000/api", // Update if deployed
+  baseURL: 'http://localhost:8000/api', // Update if deployed
   headers: {
-    "Content-Type": "application/json",
+    'Content-Type': 'application/json',
   },
 });
 
 export default instance;
 ```
 
----
-
 ## Routing Setup
 
 Routes are configured in `App.jsx` using React Router:
 
 ```jsx
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -105,8 +97,6 @@ function App() {
 export default App;
 ```
 
----
-
 ## Sample Page: Hello World
 
 Created inside `src/pages/Home.jsx`:
@@ -119,8 +109,6 @@ function Home() {
 export default Home;
 ```
 
----
-
 ## Features Preview
 
 - ✅ JWT Authentication with Backend
@@ -130,14 +118,9 @@ export default Home;
 - 🚧 AI Summarization & Smart Search (WIP)
 - ✅ Responsive UI for mobile & desktop
 
----
-
 ## 📡 Backend Setup
 
 The backend is available in this repo:  
-👉 [Life Tracker Backend](https://github.com/Ayat166/Life_Tracker_Backend)
+👉 [Life Tracker Backend](https://github.com/MohamedEmary/Life_Tracker_Backend)
 
 Make sure it's running on `http://localhost:8000` (or update Axios base URL).
-
----
-
