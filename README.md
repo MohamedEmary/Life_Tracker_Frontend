@@ -2,13 +2,7 @@
 
 The frontend for **Life Tracker**, a productivity web application designed to help users build better habits, manage tasks efficiently, and collaborate in real-time. This app integrates AI features and Google Calendar for a smarter, more streamlined experience.
 
-## 🌐 Live Preview
-
-Coming soon...
-
----
-
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Framework:** React + Vite
 - **Routing:** React Router DOM
@@ -21,7 +15,7 @@ Coming soon...
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 src/
@@ -35,7 +29,7 @@ src/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -64,7 +58,7 @@ The app should be live at `http://localhost:5173`.
 
 ---
 
-## 🔧 Axios Configuration
+## Axios Configuration
 
 All API requests are handled through a centralized Axios instance located in:
 
@@ -90,7 +84,7 @@ export default instance;
 
 ---
 
-## 🧭 Routing Setup
+## Routing Setup
 
 Routes are configured in `App.jsx` using React Router:
 
@@ -113,7 +107,7 @@ export default App;
 
 ---
 
-## 🧪 Sample Page: Hello World
+## Sample Page: Hello World
 
 Created inside `src/pages/Home.jsx`:
 
@@ -127,7 +121,7 @@ export default Home;
 
 ---
 
-## 🧠 Features Preview
+## Features Preview
 
 - ✅ JWT Authentication with Backend
 - ✅ Task & Habit Management UI
